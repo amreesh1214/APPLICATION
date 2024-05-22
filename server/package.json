@@ -8,7 +8,8 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "seed": "node seed.js",
-    "build": "npm install"
+    "preinstall": "echo $NODE_ENV && node -v && npm -v",
+    "build": "npm install && react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +22,7 @@
     "mongoose": "^6.4.4",
     "nodemon": "^2.0.22",
     "react-scripts": "^5.0.1",
-    "stripe": "^9.13.0",
-      "check": "ls -l node_modules/react-scripts/bin"
-    
+    "stripe": "^9.13.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.3.0"
