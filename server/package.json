@@ -10,7 +10,6 @@
     "seed": "node seed.js",
     "build": "npm install"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
