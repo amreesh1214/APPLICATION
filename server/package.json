@@ -21,7 +21,9 @@
     "mongoose": "^6.4.4",
     "nodemon": "^2.0.22",
     "react-scripts": "^5.0.1",
-    "stripe": "^9.13.0"
+    "stripe": "^9.13.0",
+      "check": "ls -l node_modules/react-scripts/bin"
+    
   },
   "devDependencies": {
     "@faker-js/faker": "^7.3.0"
